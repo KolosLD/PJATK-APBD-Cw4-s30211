@@ -1,0 +1,34 @@
+## --- IDE & OS Specific ---
+.idea/
+.vs/
+*.sln.iml
+*.user
+*.suo
+/shelf/
+/workspace.xml
+/contentModel.xml
+/projectSettingsUpdater.xml
+/modules.xml
+/.idea.LinqConsoleLab.iml
+.DS_Store
+__MACOSX/
+
+## --- Build Artifacts ---
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+
+## --- Rider/HTTP Client ---
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
+
+## --- Test Results ---
+TestResults/
+
+## --- Tools ---
+.pnpm-debug.log*
